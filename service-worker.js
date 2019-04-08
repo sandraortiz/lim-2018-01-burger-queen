@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/sandraortiz/lim-2018-01-burger-queen/precache-manifest.5288630027d5898db0fb1bc1de4070c0.js"
+  "/lim-2018-01-burger-queen/precache-manifest.2cec943a6c6374abfe2069ddf8d7b6cf.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/sandraortiz/lim-2018-01-burger-queen/index.html", {
+workbox.routing.registerNavigationRoute("/lim-2018-01-burger-queen/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
