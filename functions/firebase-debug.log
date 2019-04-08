@@ -1,0 +1,32 @@
+[debug] [2019-04-04T03:50:45.650Z] ----------------------------------------------------------------------
+[debug] [2019-04-04T03:50:45.662Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\ortiz12\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js functions:shell
+[debug] [2019-04-04T03:50:45.663Z] CLI Version:   6.5.1
+[debug] [2019-04-04T03:50:45.663Z] Platform:      win32
+[debug] [2019-04-04T03:50:45.663Z] Node Version:  v10.15.0
+[debug] [2019-04-04T03:50:45.695Z] Time:          Wed Apr 03 2019 22:50:45 GMT-0500 (GMT-05:00)
+[debug] [2019-04-04T03:50:45.695Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-04-04T03:50:45.858Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-04-04T03:50:45.860Z] > authorizing via signed-in user
+[debug] [2019-04-04T03:50:45.860Z] [iam] checking project burguerqueen-92dd7 for permissions ["firebase.projects.get"]
+[debug] [2019-04-04T03:50:45.867Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-04-04T03:50:45.868Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-04-04T03:50:46.467Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-04T03:50:46.519Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/burguerqueen-92dd7:testIamPermissions  
+
+[debug] [2019-04-04T03:50:47.090Z] <<< HTTP RESPONSE 200
+[info] i  functions: Preparing to emulate functions.
+[debug] [2019-04-04T03:51:02.215Z] Fetching environment
+[debug] [2019-04-04T03:51:02.221Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/burguerqueen-92dd7  
+ 
+[debug] [2019-04-04T03:51:02.778Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-04T03:51:02.779Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/184843712728:getServerAppConfig  
+ 
+[debug] [2019-04-04T03:51:03.456Z] <<< HTTP RESPONSE 200
+[debug] [2019-04-04T03:51:03.457Z] Starting @google-cloud/functions-emulator
+[debug] [2019-04-04T03:51:12.839Z] Parsing function triggers
+[debug] [2019-04-04T03:51:16.127Z] Deploying functions locally
+[debug] [2019-04-04T03:51:16.130Z] Deploying functions locally
+[info] +  functions: deleteProfile
+[info] +  functions: createProfile
